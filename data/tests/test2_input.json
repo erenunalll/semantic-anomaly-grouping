@@ -1,0 +1,14 @@
+{
+  "threshold": 0.98,
+  "top_k": 5,
+  "items": [
+    {
+      "id": "x",
+      "text": "Database read timeout"
+    },
+    {
+      "id": "y",
+      "text": "Database connection lost"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "ground_truth_groups": [
+    {
+      "group_id": "db_connection_timeout",
+      "records": [
+        "Connection timed out when connecting to DB host db-prod-01",
+        "Failed to connect to the database: connection timeout",
+        "DB connection request failed due to timeout error",
+        "Timeout occurred while establishing connection to db-prod-01 at 2026-07-12T14:32:01Z"
+      ]
+    },
+    {
+      "group_id": "null_pointer",
+      "records": [
+        "NullPointerException: user profile is null",
+        "NPE: Null value dereferenced for profile object",
+        "Null reference encountered while accessing user profile",
+        "ERROR NullPointerException user profile null pid=48213"
+      ]
+    },
+    {
+      "group_id": "out_of_memory",
+      "records": [
+        "Out of memory: heap space exceeded",
+        "Application ran out of available heap memory",
+        "OutOfMemoryError: Java heap space",
+        "Heap allocation failed, out of memory at 0x7f3a2b1c4d00"
+      ]
+    },
+    {
+      "group_id": "auth_token_expired",
+      "records": [
+        "Authentication token has expired",
+        "Access token expired, please re-authenticate",
+        "User session token is no longer valid",
+        "WARN token expired session_id=550e8400-e29b-41d4-a716-446655440000"
+      ]
+    },
+    {
+      "group_id": "file_not_found",
+      "records": [
+        "File not found at the specified path",
+        "Unable to locate requested file",
+        "No such file or directory found",
+        "ERROR file not found /var/data/report_2026.csv"
+      ]
+    },
+    {
+      "group_id": "network_unreachable",
+      "records": [
+        "Network connection dropped because of server failure",
+        "Server error caused link disconnect",
+        "Host is unreachable, network route missing",
+        "Network unreachable at 10.10.34.11:3888, retry count=3"
+      ]
+    },
+    {
+      "group_id": "disk_full",
+      "records": [
+        "Disk space full, cannot write additional data",
+        "No space left on device",
+        "Storage volume is full, write operation failed",
+        "WARN disk full mount=/var/log 2026-07-12T18:20:44Z"
+      ]
+    },
+    {
+      "group_id": "permission_denied",
+      "records": [
+        "Permission denied while accessing resource",
+        "User lacks required access rights",
+        "Access forbidden due to insufficient privileges",
+        "ERROR permission denied uid=1000 resource=/etc/config"
+      ]
+    },
+    {
+      "group_id": "rate_limit_exceeded",
+      "records": [
+        "Rate limit exceeded for this endpoint",
+        "Too many requests sent in a short period",
+        "API throttling triggered due to request volume",
+        "WARN rate limit exceeded client_id=88213 window=60s"
+      ]
+    },
+    {
+      "group_id": "json_parse_error",
+      "records": [
+        "Failed to parse JSON payload",
+        "Malformed JSON received in request body",
+        "JSON deserialization error, invalid syntax",
+        "ERROR json parse failed trace_id=a1b2c3d4-1234-5678-9abc-def012345678"
+      ]
+    },
+    {
+      "group_id": "dns_resolution_failure",
+      "records": [
+        "DNS resolution failed for hostname",
+        "Failed to resolve hostname to an IP address",
+        "Could not resolve domain name",
+        "ERROR dns lookup failed host=db-prod-01.internal 2026-07-12T09:15:20Z"
+      ]
+    },
+    {
+      "group_id": "ssl_cert_error",
+      "records": [
+        "SSL certificate validation failed",
+        "TLS handshake failed due to invalid certificate",
+        "Certificate has expired or is untrusted",
+        "WARN ssl handshake error cert_id=660f9511-f3ac-52e5-b827-557766551111"
+      ]
+    },
+    {
+      "group_id": "queue_full",
+      "records": [
+        "Message queue is full, cannot accept new items",
+        "Queue capacity exceeded, message rejected",
+        "Buffer full, incoming message dropped",
+        "ERROR queue overflow worker=SendWorker:188978561024"
+      ]
+    },
+    {
+      "group_id": "deadlock",
+      "records": [
+        "Deadlock detected between two transactions",
+        "Transaction aborted due to deadlock",
+        "Database deadlock encountered, rolling back",
+        "ERROR deadlock victim txn_id=91827 2026-07-12T11:02:18Z"
+      ]
+    },
+    {
+      "group_id": "config_missing",
+      "records": [
+        "Required configuration value is missing",
+        "Configuration key not found in settings file",
+        "Missing environment variable for service startup",
+        "ERROR config missing key=DATABASE_URL pid=39281"
+      ]
+    },
+    {
+      "group_id": "service_unavailable",
+      "records": [
+        "Service unavailable, server returned 503",
+        "Upstream service is currently unavailable",
+        "Backend temporarily unable to handle request",
+        "ERROR 503 service unavailable endpoint=/api/v2/orders"
+      ]
+    },
+    {
+      "group_id": "thread_pool_exhausted",
+      "records": [
+        "Thread pool exhausted, no workers available",
+        "All worker threads are currently busy",
+        "Task rejected, thread pool at maximum capacity",
+        "WARN thread pool exhausted pool=worker-pool-3 active=64"
+      ]
+    },
+    {
+      "group_id": "serialization_error",
+      "records": [
+        "Failed to serialize object for transmission",
+        "Object serialization error occurred",
+        "Unable to convert object to byte stream",
+        "ERROR serialization failed class=OrderPayload session=91234"
+      ]
+    },
+    {
+      "group_id": "cache_miss",
+      "records": [
+        "Cache miss, item not found in local cache",
+        "Requested key not present in cache store",
+        "Cache lookup failed, falling back to source",
+        "WARN cache miss key=user:48213 latency=12ms"
+      ]
+    },
+    {
+      "group_id": "api_version_mismatch",
+      "records": [
+        "API version mismatch between client and server",
+        "Client is using an unsupported API version",
+        "Requested API version is no longer supported",
+        "ERROR version mismatch expected=v2 got=v1 client_id=7723"
+      ]
+    },
+    {
+      "group_id": "invalid_input_format",
+      "records": [
+        "Invalid input format received from client",
+        "Request payload does not match expected schema",
+        "Input validation failed: unexpected field type",
+        "ERROR schema validation failed request_id=9f8e7d6c-5b4a-3210-9876-543210fedcba"
+      ]
+    },
+    {
+      "group_id": "circuit_breaker_open",
+      "records": [
+        "Circuit breaker is open, request blocked",
+        "Downstream call rejected because circuit breaker tripped",
+        "Circuit breaker tripped due to repeated failures",
+        "WARN circuit breaker open service=payments failures=12"
+      ]
+    },
+    {
+      "group_id": "load_balancer_no_healthy_hosts",
+      "records": [
+        "No healthy upstream hosts available",
+        "Load balancer could not find a healthy backend",
+        "All backend instances are marked unhealthy",
+        "ERROR no healthy hosts pool=api-backend at 10.10.40.5:8080"
+      ]
+    },
+    {
+      "group_id": "token_signature_invalid",
+      "records": [
+        "Token signature verification failed",
+        "Invalid signature on provided JWT",
+        "Unable to verify token signature, rejecting request",
+        "ERROR jwt signature invalid kid=key-2026-07 client=88213"
+      ]
+    },
+    {
+      "group_id": "disk_io_error",
+      "records": [
+        "Disk I/O error while reading file",
+        "Input/output error encountered on storage device",
+        "Read operation failed due to disk I/O error",
+        "ERROR disk io failed device=/dev/sda1 sector=48213"
+      ]
+    },
+    {
+      "group_id": "schema_migration_failed",
+      "records": [
+        "Database schema migration failed",
+        "Migration script execution failed midway",
+        "Failed to apply schema changes to database",
+        "ERROR migration failed version=v20260712 db=orders_prod"
+      ]
+    },
+    {
+      "group_id": "webhook_delivery_failed",
+      "records": [
+        "Webhook delivery failed after multiple retries",
+        "Unable to deliver webhook payload to endpoint",
+        "Webhook callback failed, endpoint unreachable",
+        "ERROR webhook delivery failed endpoint=https://client.example.com/hook attempt=5"
+      ]
+    },
+    {
+      "group_id": "memory_leak_detected",
+      "records": [
+        "Memory leak detected in application process",
+        "Gradual memory growth observed, possible leak",
+        "Process memory usage increasing without release",
+        "WARN memory leak suspected pid=39281 growth_rate=12MB/min"
+      ]
+    }
+  ]
+}

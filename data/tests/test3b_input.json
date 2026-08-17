@@ -1,0 +1,7 @@
+{
+  "threshold": 0.50,
+  "top_k": 3,
+  "items": [
+    { "id": "single", "text": "Generic API error" }
+  ]
+}

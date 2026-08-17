@@ -1,0 +1,18 @@
+{
+  "threshold": 0.78,
+  "top_k": 2,
+  "items": [
+    {
+      "id": "1",
+      "text": "Network connection dropped because of server failure"
+    },
+    {
+      "id": "2",
+      "text": "Server error caused link disconnect"
+    },
+    {
+      "id": "3",
+      "text": "OutOfMemoryError: Java heap space exhausted"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "threshold": 0.60,
+  "top_k": 1,
+  "items": [
+    {
+      "id": "item-a",
+      "text": "Database transaction timeout error"
+    },
+    {
+      "id": "item-b",
+      "text": "Database read timed out"
+    },
+    {
+      "id": "item-c",
+      "text": "Database write timed out"
+    }
+  ]
+}
